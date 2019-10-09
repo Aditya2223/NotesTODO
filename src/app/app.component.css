@@ -1,0 +1,108 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+  text-align: center;
+}
+html{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+body{
+  height: 100%;
+  background-color: rgb(50, 50, 230);
+  clip-path: polygon(6% 1%, 100% 0%, 94% 99%, 0% 100%);
+  z-index: -1;
+  margin: 0;
+  top: 0;
+  padding: 20px;
+}
+.add-btn:active{
+  transform: translateY(0.5px);
+}
+.btn:active{
+  transform: translateY(2.5px);
+    transition: 1000ms linear;
+}
+.list{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.input-text{
+    display: inline;
+    margin: 0;
+    border: none;
+    border-radius: 0.4em;
+    padding: 10px;
+}
+
+img{
+  border-radius: 10px;
+}
+.list ul li button{
+    position: absolute;
+    right: 0%;
+    background: red;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.add-btn{
+  margin-left: 5px;
+    color: black !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:rgb(47, 228, 2);
+    margin:20 px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.app-title{
+    text-align: center;
+    color: rgb(48, 47, 47);
+    font-size: 50px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.list ul li{
+    display: block;
+    width: 85%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #cccccc;
+    padding: 10px;
+    margin-top:2.5px;
+    border-radius: 7.5px;
+    position: relative;
+}
+
+.container{
+    color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
